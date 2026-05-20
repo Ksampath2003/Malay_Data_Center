@@ -1,0 +1,18 @@
+[
+  { "id": "msft",   "name": "Microsoft",                "country": "US",        "category": "US hyperscaler" },
+  { "id": "goog",   "name": "Google",                   "country": "US",        "category": "US hyperscaler" },
+  { "id": "aws",    "name": "Amazon Web Services",      "country": "US",        "category": "US hyperscaler" },
+  { "id": "orcl",   "name": "Oracle",                   "country": "US",        "category": "US hyperscaler" },
+  { "id": "bx",     "name": "Blackstone",               "country": "US",        "category": "US private equity" },
+  { "id": "kkr",    "name": "KKR",                      "country": "US",        "category": "US private equity" },
+  { "id": "gip",    "name": "Global Infrastructure Partners", "country": "US",  "category": "infrastructure fund" },
+  { "id": "dgtl",   "name": "Digital Realty",           "country": "US",        "category": "REIT" },
+  { "id": "gic",    "name": "GIC",                      "country": "Singapore", "category": "sovereign wealth" },
+  { "id": "temasek","name": "Temasek",                  "country": "Singapore", "category": "sovereign wealth" },
+  { "id": "khazanah","name":"Khazanah Nasional",        "country": "Malaysia",  "category": "sovereign wealth" },
+  { "id": "epf",    "name": "Employees Provident Fund (EPF)", "country": "Malaysia", "category": "sovereign wealth" },
+  { "id": "jcorp",  "name": "Johor Corporation",        "country": "Malaysia",  "category": "Malaysian state" },
+  { "id": "ytl",    "name": "YTL Corporation",          "country": "Malaysia",  "category": "Asian conglomerate" },
+  { "id": "sime",   "name": "Sime Darby Property",      "country": "Malaysia",  "category": "Asian conglomerate" },
+  { "id": "mubadala","name": "Mubadala",                "country": "UAE",       "category": "sovereign wealth" }
+]

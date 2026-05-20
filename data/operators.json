@@ -1,0 +1,16 @@
+[
+  { "id": "msft", "name": "Microsoft", "country": "US", "type": "hyperscaler" },
+  { "id": "goog", "name": "Google", "country": "US", "type": "hyperscaler" },
+  { "id": "aws",  "name": "Amazon Web Services", "country": "US", "type": "hyperscaler" },
+  { "id": "orcl", "name": "Oracle", "country": "US", "type": "hyperscaler" },
+  { "id": "bdc",  "name": "Bridge Data Centres", "country": "Singapore", "type": "colocation" },
+  { "id": "yon",  "name": "YTL Data Center", "country": "Malaysia", "type": "colocation" },
+  { "id": "ais",  "name": "AirTrunk", "country": "Singapore", "type": "colocation" },
+  { "id": "ec",   "name": "EdgeConneX", "country": "US", "type": "colocation" },
+  { "id": "vant", "name": "Vantage Data Centers", "country": "US", "type": "colocation" },
+  { "id": "kj",   "name": "K2 Strategic / Keppel", "country": "Singapore", "type": "colocation" },
+  { "id": "gds",  "name": "GDS Holdings", "country": "China", "type": "colocation" },
+  { "id": "prnc", "name": "Princeton Digital Group", "country": "Singapore", "type": "colocation" },
+  { "id": "tm",   "name": "TM One (Telekom Malaysia)", "country": "Malaysia", "type": "telco" },
+  { "id": "jcorp","name": "Johor Corporation (JCorp)", "country": "Malaysia", "type": "sovereign" }
+]

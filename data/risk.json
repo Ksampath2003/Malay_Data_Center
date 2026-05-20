@@ -1,0 +1,36 @@
+{
+  "radar": [
+    { "country": "Malaysia",  "cost": 8.5, "power": 6.0, "talent": 6.5, "political": 7.5, "water": 5.5, "regulatory": 7.0 },
+    { "country": "Singapore", "cost": 4.0, "power": 5.0, "talent": 9.0, "political": 9.5, "water": 3.5, "regulatory": 9.0 },
+    { "country": "Vietnam",   "cost": 8.0, "power": 5.5, "talent": 5.0, "political": 5.5, "water": 7.0, "regulatory": 4.5 },
+    { "country": "Indonesia", "cost": 7.5, "power": 4.5, "talent": 5.5, "political": 5.0, "water": 6.5, "regulatory": 5.0 }
+  ],
+  "compositeIndex": [
+    { "year": 2020, "Malaysia": 5.8, "Singapore": 7.2, "Vietnam": 5.4, "Indonesia": 5.0 },
+    { "year": 2021, "Malaysia": 6.0, "Singapore": 7.3, "Vietnam": 5.5, "Indonesia": 5.1 },
+    { "year": 2022, "Malaysia": 6.2, "Singapore": 7.1, "Vietnam": 5.7, "Indonesia": 5.3 },
+    { "year": 2023, "Malaysia": 6.5, "Singapore": 7.0, "Vietnam": 5.8, "Indonesia": 5.4 },
+    { "year": 2024, "Malaysia": 6.9, "Singapore": 6.9, "Vietnam": 5.9, "Indonesia": 5.6 },
+    { "year": 2025, "Malaysia": 6.8, "Singapore": 6.8, "Vietnam": 6.0, "Indonesia": 5.8 }
+  ],
+  "scenarios": [
+    {
+      "name": "Base Case",
+      "summary": "Hyperscaler buildout proceeds on plan; TNB executes capacity additions; modest tariff drift.",
+      "capacityMW_2030": 4800,
+      "investmentUSD_B_2030": 78
+    },
+    {
+      "name": "Power Bottleneck",
+      "summary": "Grid expansion lags 18 months; committed projects slip; some PE-backed capacity defers to Indonesia.",
+      "capacityMW_2030": 3200,
+      "investmentUSD_B_2030": 54
+    },
+    {
+      "name": "US-China Decoupling Acceleration",
+      "summary": "Stricter AI diffusion controls push more compute to allied jurisdictions; Johor benefits disproportionately.",
+      "capacityMW_2030": 6400,
+      "investmentUSD_B_2030": 102
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "annualBySource": [
+    { "year": 2020, "USHyperscaler": 0.3,  "USPrivateEquity": 0.4, "SovereignWealth": 0.2, "AsianConglomerate": 0.3, "MalaysianState": 0.1 },
+    { "year": 2021, "USHyperscaler": 0.5,  "USPrivateEquity": 0.7, "SovereignWealth": 0.4, "AsianConglomerate": 0.5, "MalaysianState": 0.2 },
+    { "year": 2022, "USHyperscaler": 1.1,  "USPrivateEquity": 1.4, "SovereignWealth": 0.6, "AsianConglomerate": 0.8, "MalaysianState": 0.3 },
+    { "year": 2023, "USHyperscaler": 3.2,  "USPrivateEquity": 2.1, "SovereignWealth": 1.2, "AsianConglomerate": 1.4, "MalaysianState": 0.4 },
+    { "year": 2024, "USHyperscaler": 12.5, "USPrivateEquity": 5.6, "SovereignWealth": 2.4, "AsianConglomerate": 2.1, "MalaysianState": 0.7 },
+    { "year": 2025, "USHyperscaler": 9.8,  "USPrivateEquity": 4.1, "SovereignWealth": 1.9, "AsianConglomerate": 1.7, "MalaysianState": 0.6 }
+  ],
+  "investments": [
+    { "id": "i-msft-1",  "projectId": "dc-msft-kl1",   "financierId": "msft",     "amountUSD_MM": 800,  "structure": "100% equity",         "equityPct": 100, "debtPct": 0,  "announcedDate": "2024-05-02", "status": "signed",      "source": "placeholder" },
+    { "id": "i-msft-2",  "projectId": "dc-msft-kl2",   "financierId": "msft",     "amountUSD_MM": 650,  "structure": "100% equity",         "equityPct": 100, "debtPct": 0,  "announcedDate": "2024-05-02", "status": "announced",   "source": "placeholder" },
+    { "id": "i-msft-3",  "projectId": "dc-msft-jhr",   "financierId": "msft",     "amountUSD_MM": 950,  "structure": "100% equity",         "equityPct": 100, "debtPct": 0,  "announcedDate": "2024-05-02", "status": "announced",   "source": "placeholder" },
+    { "id": "i-goog-1",  "projectId": "dc-goog-elm",   "financierId": "goog",     "amountUSD_MM": 2000, "structure": "100% equity",         "equityPct": 100, "debtPct": 0,  "announcedDate": "2024-05-30", "status": "signed",      "source": "placeholder" },
+    { "id": "i-aws-1",   "projectId": "dc-aws-rgn",    "financierId": "aws",      "amountUSD_MM": 2400, "structure": "100% equity",         "equityPct": 100, "debtPct": 0,  "announcedDate": "2023-03-14", "status": "operational", "source": "placeholder" },
+    { "id": "i-aws-2",   "projectId": "dc-aws-jhr",    "financierId": "aws",      "amountUSD_MM": 1900, "structure": "build-to-suit lease", "equityPct": 0,   "debtPct": 0,  "announcedDate": "2024-09-19", "status": "announced",   "source": "placeholder" },
+    { "id": "i-orcl-1",  "projectId": "dc-orcl-jhr",   "financierId": "orcl",     "amountUSD_MM": 2900, "structure": "100% equity",         "equityPct": 100, "debtPct": 0,  "announcedDate": "2024-10-03", "status": "signed",      "source": "placeholder" },
+    { "id": "i-orcl-2",  "projectId": "dc-orcl-kl",    "financierId": "orcl",     "amountUSD_MM": 1500, "structure": "100% equity",         "equityPct": 100, "debtPct": 0,  "announcedDate": "2024-10-03", "status": "announced",   "source": "placeholder" },
+    { "id": "i-bx-1",    "projectId": "dc-bdc-sednk1", "financierId": "bx",       "amountUSD_MM": 520,  "structure": "equity + project debt","equityPct": 55, "debtPct": 45, "announcedDate": "2021-06-12", "status": "operational", "source": "placeholder" },
+    { "id": "i-bx-2",    "projectId": "dc-bdc-sednk2", "financierId": "bx",       "amountUSD_MM": 760,  "structure": "equity + project debt","equityPct": 50, "debtPct": 50, "announcedDate": "2023-08-04", "status": "funded",      "source": "placeholder" },
+    { "id": "i-bx-3",    "projectId": "dc-ais-jhr1",   "financierId": "bx",       "amountUSD_MM": 980,  "structure": "equity + project debt","equityPct": 55, "debtPct": 45, "announcedDate": "2024-09-04", "status": "operational", "source": "placeholder" },
+    { "id": "i-bx-4",    "projectId": "dc-ais-jhr2",   "financierId": "bx",       "amountUSD_MM": 1700, "structure": "equity + project debt","equityPct": 50, "debtPct": 50, "announcedDate": "2024-09-04", "status": "funded",      "source": "placeholder" },
+    { "id": "i-ytl-1",   "projectId": "dc-ytl-grnp",   "financierId": "ytl",      "amountUSD_MM": 3500, "structure": "JV",                  "equityPct": 60,  "debtPct": 40, "announcedDate": "2023-12-08", "status": "funded",      "source": "placeholder" },
+    { "id": "i-dgtl-1",  "projectId": "dc-vant-jhr",   "financierId": "dgtl",     "amountUSD_MM": 1300, "structure": "equity + project debt","equityPct": 55, "debtPct": 45, "announcedDate": "2023-04-19", "status": "funded",      "source": "placeholder" },
+    { "id": "i-gip-1",   "projectId": "dc-ec-kl",      "financierId": "gip",      "amountUSD_MM": 540,  "structure": "infra fund",          "equityPct": 70,  "debtPct": 30, "announcedDate": "2022-07-21", "status": "operational", "source": "placeholder" },
+    { "id": "i-gic-1",   "projectId": "dc-gds-jhr",    "financierId": "gic",      "amountUSD_MM": 880,  "structure": "JV",                  "equityPct": 65,  "debtPct": 35, "announcedDate": "2023-11-02", "status": "funded",      "source": "placeholder" },
+    { "id": "i-mub-1",   "projectId": "dc-prnc-jhr",   "financierId": "mubadala", "amountUSD_MM": 620,  "structure": "equity + project debt","equityPct": 60, "debtPct": 40, "announcedDate": "2021-09-15", "status": "operational", "source": "placeholder" },
+    { "id": "i-tem-1",   "projectId": "dc-kj-jhr",     "financierId": "temasek",  "amountUSD_MM": 410,  "structure": "JV",                  "equityPct": 70,  "debtPct": 30, "announcedDate": "2020-04-08", "status": "operational", "source": "placeholder" },
+    { "id": "i-kh-1",    "projectId": "dc-tm-cybr",    "financierId": "khazanah", "amountUSD_MM": 280,  "structure": "100% equity",         "equityPct": 100, "debtPct": 0,  "announcedDate": "2019-11-12", "status": "operational", "source": "placeholder" },
+    { "id": "i-jc-1",    "projectId": "dc-jcorp-yps",  "financierId": "jcorp",    "amountUSD_MM": 460,  "structure": "JV",                  "equityPct": 80,  "debtPct": 20, "announcedDate": "2024-03-18", "status": "announced",   "source": "placeholder" }
+  ],
+  "sankey": {
+    "nodes": [
+      { "id": "src-msft",     "label": "Microsoft (corporate cash + debt)", "group": "source" },
+      { "id": "src-goog",     "label": "Alphabet (operating cash flow)",     "group": "source" },
+      { "id": "src-aws",      "label": "Amazon (operating cash flow)",       "group": "source" },
+      { "id": "src-orcl",     "label": "Oracle (debt issuance + cash)",      "group": "source" },
+      { "id": "src-bx",       "label": "Blackstone funds (LP capital)",      "group": "source" },
+      { "id": "src-gic",      "label": "GIC (sovereign wealth)",             "group": "source" },
+      { "id": "src-mub",      "label": "Mubadala (sovereign wealth)",        "group": "source" },
+      { "id": "src-ytl",      "label": "YTL Corp (balance sheet)",           "group": "source" },
+      { "id": "src-jcorp",    "label": "Johor Corp (state)",                 "group": "source" },
+
+      { "id": "veh-direct",   "label": "Direct hyperscaler capex",           "group": "vehicle" },
+      { "id": "veh-jv",       "label": "Joint venture",                      "group": "vehicle" },
+      { "id": "veh-fund",     "label": "Infra/PE fund vehicle",              "group": "vehicle" },
+      { "id": "veh-bts",      "label": "Build-to-suit lease",                "group": "vehicle" },
+
+      { "id": "dst-johor",    "label": "Johor projects",                     "group": "destination" },
+      { "id": "dst-kl",       "label": "Greater KL projects",                "group": "destination" }
+    ],
+    "links": [
+      { "sourceId": "src-msft",   "targetId": "veh-direct", "valueUSD_MM": 2400 },
+      { "sourceId": "src-goog",   "targetId": "veh-direct", "valueUSD_MM": 2000 },
+      { "sourceId": "src-aws",    "targetId": "veh-direct", "valueUSD_MM": 2400 },
+      { "sourceId": "src-aws",    "targetId": "veh-bts",    "valueUSD_MM": 1900 },
+      { "sourceId": "src-orcl",   "targetId": "veh-direct", "valueUSD_MM": 4400 },
+      { "sourceId": "src-bx",     "targetId": "veh-fund",   "valueUSD_MM": 3960 },
+      { "sourceId": "src-gic",    "targetId": "veh-jv",     "valueUSD_MM": 880 },
+      { "sourceId": "src-mub",    "targetId": "veh-fund",   "valueUSD_MM": 620 },
+      { "sourceId": "src-ytl",    "targetId": "veh-jv",     "valueUSD_MM": 3500 },
+      { "sourceId": "src-jcorp",  "targetId": "veh-jv",     "valueUSD_MM": 460 },
+
+      { "sourceId": "veh-direct", "targetId": "dst-kl",     "valueUSD_MM": 6300 },
+      { "sourceId": "veh-direct", "targetId": "dst-johor",  "valueUSD_MM": 4900 },
+      { "sourceId": "veh-bts",    "targetId": "dst-johor",  "valueUSD_MM": 1900 },
+      { "sourceId": "veh-fund",   "targetId": "dst-johor",  "valueUSD_MM": 5180 },
+      { "sourceId": "veh-jv",     "targetId": "dst-johor",  "valueUSD_MM": 4380 },
+      { "sourceId": "veh-jv",     "targetId": "dst-kl",     "valueUSD_MM": 460 }
+    ]
+  },
+  "financiersOfFinanciers": [
+    {
+      "financier": "Microsoft",
+      "capexFunding": [
+        { "source": "Operating cash flow", "pct": 60 },
+        { "source": "Corporate bond issuance", "pct": 25 },
+        { "source": "Build-to-suit lease (off-balance)", "pct": 15 }
+      ],
+      "note": "Microsoft has issued multi-billion infrastructure-tagged bonds in 2023–24."
+    },
+    {
+      "financier": "Amazon Web Services",
+      "capexFunding": [
+        { "source": "Operating cash flow", "pct": 55 },
+        { "source": "Build-to-suit / colo lease", "pct": 30 },
+        { "source": "Corporate debt", "pct": 15 }
+      ],
+      "note": "AWS leans heavily on build-to-suit colo for capacity flex."
+    },
+    {
+      "financier": "Oracle",
+      "capexFunding": [
+        { "source": "Corporate debt", "pct": 55 },
+        { "source": "Operating cash flow", "pct": 35 },
+        { "source": "Lease financing", "pct": 10 }
+      ],
+      "note": "Oracle's OCI buildout is materially debt-funded; net debt > $80B."
+    },
+    {
+      "financier": "Blackstone (AirTrunk / QTS platforms)",
+      "capexFunding": [
+        { "source": "BREIT + flagship PE funds (LP equity)", "pct": 40 },
+        { "source": "Project-level debt (banks + private credit)", "pct": 55 },
+        { "source": "GP commitment", "pct": 5 }
+      ],
+      "note": "AirTrunk acquisition closed Sept 2024 at ~A$24B EV."
+    }
+  ]
+}

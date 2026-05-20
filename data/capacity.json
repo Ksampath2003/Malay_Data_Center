@@ -1,0 +1,22 @@
+{
+  "historical": [
+    { "year": 2020, "liveMW": 110, "underConstructionMW": 60,  "committedMW": 0,    "source": "placeholder" },
+    { "year": 2021, "liveMW": 160, "underConstructionMW": 90,  "committedMW": 50,   "source": "placeholder" },
+    { "year": 2022, "liveMW": 230, "underConstructionMW": 140, "committedMW": 180,  "source": "placeholder" },
+    { "year": 2023, "liveMW": 320, "underConstructionMW": 220, "committedMW": 480,  "source": "placeholder" },
+    { "year": 2024, "liveMW": 410, "underConstructionMW": 290, "committedMW": 1100, "source": "placeholder" },
+    { "year": 2025, "liveMW": 487, "underConstructionMW": 324, "committedMW": 1400, "source": "verified",   "note": "487 MW live / 324 MW UC / 1.4 GW committed in Johor; total Malaysia higher when KL included." }
+  ],
+  "northernVirginiaBenchmark": [
+    { "year": 2015, "liveMW": 750 },
+    { "year": 2016, "liveMW": 900 },
+    { "year": 2017, "liveMW": 1100 },
+    { "year": 2018, "liveMW": 1350 },
+    { "year": 2019, "liveMW": 1650 },
+    { "year": 2020, "liveMW": 1950 },
+    { "year": 2021, "liveMW": 2300 },
+    { "year": 2022, "liveMW": 2700 },
+    { "year": 2023, "liveMW": 3200 },
+    { "year": 2024, "liveMW": 3800 }
+  ]
+}

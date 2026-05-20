@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Inter via Google CDN; falls back to system stack in tailwind.config */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  --bg: #070B14;
+  --panel: #0B1220;
+  --panel-2: #111A2E;
+  --border: rgba(255, 255, 255, 0.06);
+  --text: #DCE3F0;
+  --text-dim: #8497B8;
+}
+
+html.light {
+  --bg: #F7F9FC;
+  --panel: #FFFFFF;
+  --panel-2: #F0F3F9;
+  --border: rgba(0, 0, 0, 0.08);
+  --text: #0B1220;
+  --text-dim: #56688B;
+}
+
+html, body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "tnum", "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular numbers everywhere by default */
+.num, table, .recharts-text {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle panel surfaces */
+.panel {
+  background-color: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 1px 0 0 rgba(255,255,255,0.03) inset, 0 1px 2px 0 rgba(0,0,0,0.5);
+}
+
+.panel-inset {
+  background-color: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+/* Scrollbar polish */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb {
+  background: rgba(132, 151, 184, 0.25);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover { background: rgba(132, 151, 184, 0.45); }
+
+/* Recharts default axis tick color override */
+.recharts-cartesian-axis-tick text {
+  fill: var(--text-dim);
+  font-size: 11px;
+}
+.recharts-cartesian-grid line {
+  stroke: rgba(132, 151, 184, 0.12);
+}
+.recharts-tooltip-wrapper {
+  outline: none !important;
+}
+
+/* Leaflet container — dark integration */
+.leaflet-container {
+  background: #0B1220 !important;
+}
+.leaflet-control-attribution {
+  background: rgba(11,18,32,0.7) !important;
+  color: #8497B8 !important;
+}
+.leaflet-control-attribution a {
+  color: #B7C3DA !important;
+}
+
+/* Skeleton shimmer */
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, rgba(132,151,184,0.06) 0%, rgba(132,151,184,0.14) 50%, rgba(132,151,184,0.06) 100%);
+  background-size: 800px 100%;
+  animation: shimmer 1.6s linear infinite;
+  border-radius: 6px;
+}
+
+/* Small uppercase eyebrows */
+.eyebrow {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  font-weight: 600;
+}
